@@ -20,8 +20,13 @@ options for those and for German-style `ä → ae`.
 
 ## Installing
 
-Download `accent_letters-1.0.1.zip` from [Releases](https://github.com/roshanti1/blender-accent-letters/releases),
-then in Blender: **Edit ▸ Preferences ▸ Add-ons ▸ Install from Disk**. Needs Blender **4.2 or newer**.
+Needs Blender **4.2 or newer**. The add-on is listed on Blender's own extension directory:
+<https://extensions.blender.org/add-ons/accent-letters/>. Click **Get Add-on** there and drag it
+into Blender, or in Blender open **Edit ▸ Preferences ▸ Get Extensions** and search for
+*Accent Letters*. Installed either way, Blender offers each new version as an update.
+
+Offline: download `accent_letters-1.0.1.zip` from [Releases](https://github.com/roshanti1/blender-accent-letters/releases),
+then in Blender: **Edit ▸ Preferences ▸ Add-ons ▸ Install from Disk**.
 
 ## Reporting a problem
 
