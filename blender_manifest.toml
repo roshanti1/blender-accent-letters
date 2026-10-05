@@ -1,0 +1,29 @@
+schema_version = "1.0.0"
+
+id = "accent_letters"
+version = "1.0.1"
+name = "Accent Letters"
+tagline = "Type the accented letters of 55 languages into text objects"
+maintainer = "Accent Letters <info@accentletters.wiki>"
+type = "add-on"
+
+website = "https://accentletters.wiki/"
+
+# "Object" was removed at the reviewer's request on 2026-10-05: the add-on edits text, it is not an
+# object tool.
+tags = ["User Interface"]
+
+blender_version_min = "4.2.0"
+
+# GPL-3.0-or-later is not a choice here: the Blender Extensions Platform requires it of every
+# add-on, because Blender is GPL and treats an add-on as a derivative work.
+# https://docs.blender.org/manual/en/latest/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2026 Accent Letters",
+]
+
+# No permissions requested. The add-on reads one file that ships inside it and makes no network
+# request of any kind, so it needs neither "files" nor "network".
